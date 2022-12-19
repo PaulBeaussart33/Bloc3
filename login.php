@@ -8,13 +8,27 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-<form>
+<header>
+        <div class="content">
+        <nav>
+            <ul>
+              <li id="menu-item-1"><a href="#">Acceuil</a></li>
+              <li id="menu-item-1"><a href="#">Recettes</a></li>
+              <li id="menu-item-2"><a href="login.php">connexion</a></li>
+              <li id="menu-item-3"><a href="#">contact</a></li>
+            </ul>
+        </nav>    
+
+<h1>Connexion utilisateur</h1>
 <form>
     <label for="name">Nom :</label>
-    <input type="text" id="name" name="name">
+    <input type="text" id="name" name="name" placeholder="Nom">
     <label for="email">Adresse e-mail :</label>
-    <input type="email" id="email" name="email">
+    <input type="email" id="email" name="email" placeholder="Email">
     <label for="password">Mot de passe :</label>
-    <input type="password" id="password" name="password">
+    <input type="password" id="password" name="password" placeholder="Mot de passe">
+</form>
+</div>
+</header>
 </body>
 </html>

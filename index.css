@@ -2,10 +2,12 @@ form {
     width: 300px;
     margin: 0 auto;
     text-align: center;
+    color: white;
   }
   label, input {
     display: block;
     margin: 10px 0;
+    color: white;
   }
   input[type="text"], input[type="email"], input[type="password"] {
     width: 100%;
@@ -64,6 +66,10 @@ form {
 
   .firstBloc p {
     font-size: 25px;
+  }
+
+  .header h1 {
+    color: white;
   }
 
 .content {

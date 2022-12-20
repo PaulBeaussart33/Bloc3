@@ -14,12 +14,16 @@
         <div class="content">
         <nav>
             <ul>
-              <li id="menu-item-1"><a href="#">Acceuil</a></li>
+              <li id="menu-item-1"><a href="index.php">Acceuil</a></li>
               <li id="menu-item-1"><a href="#">Recettes</a></li>
               <li id="menu-item-2"><a href="login.php">connexion</a></li>
-              <li id="menu-item-3"><a href="#">contact</a></li>
+
+              <li id="menu-item-3"><a href="#">compte</a></li>
             </ul>
+
         </nav>
+ 
+ </div>
 
         <div class="firstBloc">
             <h1>L'art de la pizza, directement chez vous !</h1>

@@ -1,26 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../index.css">
-    <title>pizzaTower</title>
-
-</head>
-<body>
-<header>
-        <div class="content">
-        <nav>
-            <ul>
-              <li id="menu-item-1"><a href="#">Acceuil</a></li>
-              <li id="menu-item-1"><a href="#">Recettes</a></li>
-              <li id="menu-item-2"><a href="login.php">connexion</a></li>
-              <li id="menu-item-3"><a href="#">contact</a></li>
-            </ul>
-        </nav>    
+<?php
+include './layouts.php';
+?>
 
 
 <div class="login-form">
@@ -61,10 +41,10 @@
             <form action="connexion.php" method="post">
                 <h2 class="text-center">Connexion</h2>       
                 <div class="form-group">
-                    <input type="email" name="email" class="form-control" placeholder="Email" required="required" autocomplete="off">
+                    <input type="email" name="email" value="email@jkhfd.fr" class="form-control" placeholder="Email" required="required" autocomplete="off">
                 </div>
                 <div class="form-group">
-                    <input type="password" name="password" class="form-control" placeholder="Mot de passe" required="required" autocomplete="off">
+                    <input type="password" value="123" name="password" class="form-control" placeholder="Mot de passe" required="required" autocomplete="off">
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary btn-block">Connexion</button>

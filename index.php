@@ -25,15 +25,14 @@
 
         </nav>
  
- </div>
+
 
         <div class="firstBloc">
             <h1>L'art de la pizza, directement chez vous !</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores doloribus laboriosam officiis quasi iste expedita sint, mollitia, nobis quaerat harum perspiciatis nemo iure impedit voluptatem cupiditate suscipit, molestias non labore. 
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint veniam reprehenderit vel illo laudantium incidunt vitae quam! Maxime velit molestias eius quod perspiciatis sapiente est eligendi aspernatur. Porro, voluptatem voluptate.</p>
-            <input type="submit" value="M'enregistrer">
         </div>
-        </div>
+</div>
     </header>
 
     <div class="story">

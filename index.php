@@ -17,10 +17,11 @@
         <nav>
             <ul>
               <li id="menu-item-1"><a href="index.php">Acceuil</a></li>
-              <li id="menu-item-1"><a href="/recettes.php">Recettes</a></li>
+              <li id="menu-item-1"><a href="recettes.php">Recettes</a></li>
               <li id="menu-item-2"><a href="./login.php">connexion</a></li>
               <li id="menu-item-2"><a href="./login/inscription.php">inscription</a></li>
               <li id="menu-item-3"><a href="./login/landing.php">compte</a></li>
+              <li id="menu-item-1"><a href="gestion.php">gestion</a></li>
             </ul>
 
         </nav>

@@ -11,7 +11,6 @@ form {
   label, input {
     display: block;
     margin: 10px 0;
-    color: white;
   }
   input[type="text"], input[type="email"], input[type="password"] {
     width: 100%;
@@ -111,4 +110,21 @@ form {
 
 .col-lg-4 {
   margin-bottom: 60px;
+}
+
+.grey {
+  background-image: url(./img/grey-marble-background-concept\ \(1\).jpg);
+}
+
+.table, .table-striped, .table-light {
+  margin-top: 150px;
+}
+
+.post {
+  margin-bottom: 15px;
+  margin-top: 150px;
+  background: #f7f7f7;
+  box-shadow: 0px 2px 2px rgb(0 0 0 / 30%);
+  padding: 30px;
+  width: 600px;
 }

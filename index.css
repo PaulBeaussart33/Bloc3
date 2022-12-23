@@ -32,32 +32,10 @@ form {
     background-color: #45a049;
   }
 
-  /* CSS NAV */
-
-  nav {
-    color: white;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    font-size: 25px;
-  }
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  nav li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-  nav a {
-    color: white;
-  }
+ 
 
   .firstBloc {
     color: white;
-    margin-top: 100px;
     margin-left: 40px;
     margin-right: 450px;
   }
@@ -113,7 +91,7 @@ form {
 }
 
 .grey {
-  background-image: url(./img/grey-marble-background-concept\ \(1\).jpg);
+  background-image: url(.);
 }
 
 .table, .table-striped, .table-light {
@@ -127,4 +105,10 @@ form {
   box-shadow: 0px 2px 2px rgb(0 0 0 / 30%);
   padding: 30px;
   width: 600px;
+}
+
+.gestionTitle {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
 }

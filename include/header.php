@@ -13,14 +13,26 @@
 <body>
     
     <header>
-        <div class="content">
-        <nav>
-            <ul>
-              <li id="menu-item-1"><a href="index.php">Acceuil</a></li>
-              <li id="menu-item-1"><a href="recettes.php">Recettes</a></li>
-              <li id="menu-item-2"><a href="./login.php">connexion</a></li>
-              <li id="menu-item-2"><a href="./login/inscription.php">inscription</a></li>
-              <li id="menu-item-3"><a href="./login/landing.php">compte</a></li>
-            </ul>
 
-        </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="index.php" class="nav-item nav-link active">Acceuil</a>
+                    <a href="recettes.php" class="nav-item nav-link">Recettes</a>
+                    <a href="./login/landing.php" class="nav-item nav-link">compte</a>
+                    <a href="gestion.php" class="nav-item nav-link">gestion</a>
+                </div>
+                <div class="navbar-nav ms-auto">
+                    <a href="./login/login.php" class="nav-item nav-link">connexion</a>
+                    <a href="./login/inscription.php" class="nav-item nav-link">inscription</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    </header>

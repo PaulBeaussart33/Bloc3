@@ -32,4 +32,4 @@ $sth->execute([$id]);
 $recette = $sth->fetch();
 
 include 'include/form.php'; ?>
-<a href="delete.php?id=<?= $recette['id'] ?>">Supprimer</a>
+<a  class="btn btn-danger" href="delete.php?id=<?= $recette['id'] ?>">Supprimer</a>

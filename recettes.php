@@ -1,11 +1,12 @@
-<!DOCTYPE html>
 <?php
+include 'include/header.php';
 include 'include/pdo.php';
 $stmt = $pdo->query("SELECT * FROM recette");
 $recettes = $stmt->fetchAll();
 $id = [1];
 
 ?>
+<!DOCTYPE html>
 <html lang="fr-FR">
 <head>
     <meta charset="UTF-8">
@@ -13,21 +14,11 @@ $id = [1];
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="/index.css">
     <title>Recettes</title>
 </head>
-<body class="grey">
-
-<?php
-foreach($id as $i){
-    echo <<<HTML
-    <div class="#">
-        <a href='./product.php?id={$i}'><img src="./img/logoS.PNG"/> </a>
-    </div>
-HTML;    
-}
-?>
-    
+<body>
+    <h1 classe="gestionTitle" style="color: white; margin-top: 50px; text-align: center;">Selectionner la pizza de vos réves</h1>
     <div class="container mt-3 pt-3 bg-light">
         <div class="row g-3 pb-3">
             
@@ -48,7 +39,7 @@ HTML;
                                 <a href='./product.php?id={$o}'><img src="./img/{$img}"></a>
                             </div>
                             <div class="pb-3">
-                                typesetting, remaining essentially unchanged.
+                                
                             </div>
                         </div>
                     </div>

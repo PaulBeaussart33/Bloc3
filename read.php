@@ -14,9 +14,11 @@ $recette = $sth->fetch();
 
 <h1><?= $recette['titre'] ?></h1>
 <p><?= $recette['description'] ?></p>
+<p><?= $recette['ingredient'] ?></p>
+<p><?= $recette['etape'] ?></p>
+<p><?= $recette['duree'] ?></p>
 
-<a href="delete.php?id=<?= $recette['id'] ?>">Supprimer</a>
+<a class="btn btn-danger" href="delete.php?id=<?= $recette['id'] ?>">Supprimer</a>
 
 <?php
 
-var_dump($recette);

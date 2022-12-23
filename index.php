@@ -13,42 +13,34 @@
 <body>
     
     <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="index.php" class="nav-item nav-link active">Acceuil</a>
+                    <a href="recettes.php" class="nav-item nav-link">Recettes</a>
+                    <a href="./login/landing.php" class="nav-item nav-link">compte</a>
+                    <a href="gestion.php" class="nav-item nav-link">gestion</a>
+                </div>
+                <div class="navbar-nav ms-auto">
+                    <a href="./login/login.php" class="nav-item nav-link">connexion</a>
+                    <a href="./login/inscription.php" class="nav-item nav-link">inscription</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+     </header>
+
         <div class="content">
-        <nav>
-            <ul>
-              <li id="menu-item-1"><a href="index.php">Acceuil</a></li>
-              <li id="menu-item-1"><a href="recettes.php">Recettes</a></li>
-              <li id="menu-item-2"><a href="./login.php">connexion</a></li>
-              <li id="menu-item-2"><a href="./login/inscription.php">inscription</a></li>
-              <li id="menu-item-3"><a href="./login/landing.php">compte</a></li>
-              <li id="menu-item-1"><a href="gestion.php">gestion</a></li>
-            </ul>
-
-        </nav>
- 
-
-
         <div class="firstBloc">
             <h1>L'art de la pizza, directement chez vous !</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores doloribus laboriosam officiis quasi iste expedita sint, mollitia, nobis quaerat harum perspiciatis nemo iure impedit voluptatem cupiditate suscipit, molestias non labore. 
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint veniam reprehenderit vel illo laudantium incidunt vitae quam! Maxime velit molestias eius quod perspiciatis sapiente est eligendi aspernatur. Porro, voluptatem voluptate.</p>
+            <p>La pizza est née au XVIème siècle dans la ville de Naples en Italie. A cette époque on essayait d'améliorer le goût – un peu fade – des crêpes de pain, avec l'aide de gros sel et de gras de porc. A cette même époque des navigateurs ont rapporté des tomates du Pérou qui petit à petit furent cultivées en Europe.</p>
         </div>
 </div>
-    </header>
-
-    <div class="story">
-
-        <h1 class="titleStory">L'origine de la pizza</h1>
-
-        <div class="textStory">
-            <p>
-                La pizza est née au XVIème siècle dans la ville de Naples en Italie. A cette époque on essayait d'améliorer le goût, un peu fade, des crêpes de pain, avec l'aide de gros sel et de gras de porc.
-                A cette même époque des navigateurs ont rapporté des tomates du Pérou qui petit à petit furent cultivées en Europe. A partir de là, 100 ans s'écoulèrent jusqu'à ce que les tomates finissent en garniture de pizza. Pourtant il fallut attendre le XVIIIème siècle pour que la sauce tomate vienne agrémenter la pizza.
-            </p>
-        </div>
-
-        
-    </div>
 
 
 </body>

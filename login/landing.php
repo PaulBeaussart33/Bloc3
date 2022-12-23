@@ -1,5 +1,8 @@
 <?php
-session_start();
+include './layouts.php';
+session_start();// Démarrage de la session
+
+// si la session existe pas, ou pas connecté, on redirige
 if(!isset($_SESSION['user']))
 header('Location: login.php');
 ?>
@@ -16,7 +19,9 @@ header('Location: login.php');
     <title>Compte</title>
 </head>
 <body>
-    <h1>Bienvenue sur votre page personnel <?php echo $_SESSION['user']; ?></h1>
+    <div class="content">
+    <h1 class="gestionTitle">Bienvenue sur votre page personnel <?php echo $_SESSION['user']; ?></h1>
     <a href="deconnexion.php" class="btn btn-danger btn-lg">Déconnexion</a>
+    </div>
 </body>
 </html>

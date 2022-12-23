@@ -6,7 +6,7 @@ if(isset($_POST) && !empty($_POST)){
 
     $sth = $pdo->prepare("INSERT INTO recette (titre, ingredient, description, image, etape, duree) VALUES (:titre, :ingredient, :description, :image, :etape, :duree)");
 
-    $sth->execute([
+    $sth->execute([  // htmlentities — Convertit tous les caractères éligibles en entités HTML
         'titre' => htmlentities($_POST['titre']),
         'ingredient' => htmlentities($_POST['ingredient']),
         'description' => htmlentities($_POST['description']),

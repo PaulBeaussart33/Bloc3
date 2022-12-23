@@ -1,4 +1,4 @@
-<h1>Formulaire de gestion</h1>
+<h1 class="gestionTitle">Formulaire de gestion</h1>
 <form class="post" method="post">
     <label>
     <div class="form-group">
@@ -39,7 +39,7 @@
     <label>
     <div class="form-group">
     <label for="exampleFormControlInput1">Durée :</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Durée" name="duree" value="<?php if(isset($recette['duree'])){ echo $recette['duree']; } ; ?>">
+    <input type="form-control" class="form-control" id="exampleFormControlInput1" placeholder="Durée" name="duree" value="<?php if(isset($recette['duree'])){ echo $recette['duree']; } ; ?>">
   </div>
     </label>
     <button type="submit">Enregistrer</button>

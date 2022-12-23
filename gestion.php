@@ -3,7 +3,10 @@
 include 'include/pdo.php';
 include 'include/header.php';
 
+// On execute une demande a la pdo pour selectionner l'id et titre d'une recette dans la table recette
 $stmt = $pdo->query("SELECT id, titre FROM recette");
+
+// fetchall pour selectionner tout les elements du tableu
 $recettes = $stmt->fetchAll();
 
 ?><table class="table table-striped table-light">
